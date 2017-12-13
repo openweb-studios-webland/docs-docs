@@ -15,6 +15,7 @@ sidebar_categories:
     - formatting
   Technical:
     - setup
+    - recipes
 github_repo: apollographql/docs-docs
 content_root: source
 

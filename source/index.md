@@ -49,3 +49,31 @@ At the top of every article you'll find two buttons: GitHub and Slack. These are
 <h3 id="flexible">Arbitrary content</h3>
 
 Platforms like the above, or GitHub READMEs, don't allow you to embed arbitrary stuff. Because we fully control the sites we deploy, we don't have to worry about it, enabling us to embed any kind of content we desire including videos, code sandboxes, and more.
+
+<h2 id="quirks">Historical quirks</h2>
+
+Sorry about these - there are some issues that we probably need to fix at some point but we haven't gotten around to. If you find a way, please do it!
+
+<h3 id="config-refresh">Config changes require server restart</h3>
+
+If you edit the `_config.yml` file, for example to add a new file to the sidebar, you'll need to kill your server and start it up again to pick up the change. If you edit page content or the theme you don't need to restart.
+
+<h3 id="hexo">Using Hexo</h3>
+
+At this point we have so much custom code I doubt we get much benefit from Hexo. Sometimes people working with the docs say stuff like "I don't understand how to do X in the Hexo thing" but usually it's actually a problem with our theme. We might want to migrate to a fully custom setup more like [MAW](https://github.com/meteor/website-tool) to become fully in control of our destiny.
+
+<h3 id="meteor-apollo-split">Meteor / Apollo theme split</h3>
+
+For at least a year, Meteor and Apollo have used unmergeable branches of the theme:
+
+- [Meteor on `master`](https://github.com/meteor/hexo-theme-meteor)
+- [Apollo on `apollo`](https://github.com/meteor/hexo-theme-meteor/pull/42)
+
+This was for a few reasons and more:
+
+1. Need to configure logos/colors
+2. Need to have a custom nav bar
+3. Rushed visual improvements for a new website launch
+4. Quick bug fixes for specific websites
+
+If you can figure out how to merge these branches together you'll be a docs hero.
