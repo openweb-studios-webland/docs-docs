@@ -3,8 +3,8 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Community
-subtitle: Get involved the Apollo Community
+title: Docs docs
+subtitle: Learn how to use the Apollo and Meteor docs framework.
 description:
 
 versions:
@@ -12,17 +12,16 @@ versions:
 sidebar_categories:
   null:
     - index
-    - contributing
-    - code-of-conduct
-    - graphql-events
-    - apollo-mission-briefing
-github_repo: apollographql/community
+    - formatting
+  Technical:
+    - setup
+github_repo: apollographql/docs-docs
 content_root: source
 
 social_links:
   github: 'https://github.com/apollographql'
   twitter: '@apollographql'
-  slackInvitePage: 'https://www.apollodata.com/#slack'
+  slackInvitePage: 'https://www.apollographql.com/#slack'
 
 # API keys
 apis:
@@ -31,20 +30,12 @@ apis:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://www.apollographql.com/docs/community/
-root: /docs/community/
-permalink: :year/:month/:day/:title/
-permalink_defaults:
+url: https://www.apollographql.com/docs/docs/
+root: /docs/docs/
 
 # Directory
 source_dir: source
-public_dir: public/docs/community
-tag_dir: tags
-archive_dir: archives
-category_dir: categories
-code_dir: downloads/code
-i18n_dir: :lang
-skip_render:
+public_dir: public/docs/docs
 
 # Extensions
 ## Plugins: http://hexo.io/plugins/
