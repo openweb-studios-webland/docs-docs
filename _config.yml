@@ -4,11 +4,10 @@
 
 # Site
 title: Docs docs
-subtitle: Learn how to use the Apollo and Meteor docs framework.
-description:
 
 versions:
   - '1'
+
 sidebar_categories:
   null:
     - index
@@ -16,6 +15,7 @@ sidebar_categories:
   Technical:
     - setup
     - recipes
+    - config
 github_repo: apollographql/docs-docs
 content_root: source
 
