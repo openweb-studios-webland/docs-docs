@@ -12,7 +12,9 @@ The theme lives on GitHub at [meteor/hexo-theme-meteor](https://github.com/meteo
 
 <h2 id="why">Why a custom framework?</h2>
 
-One of the first questions you might ask is, why do we bother maintaining our own documentation setup and theme when there are off-the-shelf options available like [GitBook](https://www.gitbook.com/), [ReadTheDocs](https://readthedocs.org/), or [Readme.io](http://readme.io/). The answer is that these are great options when you want to get something up and running quickly, but aren't really designed for the needs of huge open source projects such as Apollo and Meteor.
+One of the first questions you might ask is, why do we bother maintaining our own documentation setup and theme when there are off-the-shelf options available like GitHub READMEs, [GitBook](https://www.gitbook.com/), [ReadTheDocs](https://readthedocs.org/), or [Readme.io](http://readme.io/).
+
+The answer is that we tried them, and these are great options when you want to get something up and running quickly, but aren't really designed for the needs of huge open source projects such as Apollo and Meteor. Emphasis on huge - I'd guess we're probably maintaining on the order of 100-200 pages of docs right now.
 
 <h2 id="running">Running a docs site</h2>
 
