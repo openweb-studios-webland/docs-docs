@@ -1,7 +1,3 @@
-# Hexo Configuration
-## Docs: http://hexo.io/docs/configuration.html
-## Source: https://github.com/hexojs/hexo/
-
 # Site
 title: Docs docs
 
@@ -19,26 +15,10 @@ sidebar_categories:
 github_repo: apollographql/docs-docs
 content_root: source
 
-social_links:
-  github: 'https://github.com/apollographql'
-  twitter: '@apollographql'
-  slackInvitePage: 'https://www.apollographql.com/#slack'
-
-# API keys
-apis:
-  segment: wgrIo8Bul0Ujl8USETG3DB6hONdy4kTg
-  gtm: GTM-PNFDVBB
-
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: https://www.apollographql.com/docs/docs/
 root: /docs/docs/
 
-# Directory
-source_dir: source
 public_dir: public/docs/docs
 
-# Extensions
-## Plugins: http://hexo.io/plugins/
-## Themes: http://hexo.io/themes/
-theme: meteor
