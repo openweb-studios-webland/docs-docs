@@ -11,6 +11,10 @@ You may have heard we have a lot of sites running the same theme. How? Well, bec
 
 This is appended to the `<title>` of every page in the docs, so it will be something like `_config.yml | Docs docs`. It's also used at the top of the sidebar.
 
+<h3 id="subtitle">subtitle</h3>
+
+Though the name is very confusing, this is used for the placeholder text in the search box. (e.g. `Search Engine Docs`)
+
 <h3 id="versions">versions</h3>
 
 TODO: Document this. Used in Meteor docs/guide.
@@ -125,10 +129,6 @@ public_dir: public/docs/docs
 <h2 id="unused">Unused / broken</h2>
 
 Please fix these, or remove them if you see them in a config file.
-
-<h3 id="subtitle">subtitle</h3>
-
-It's only used in the placeholder text in the search field.
 
 <h3 id="description">description</h3>
 
