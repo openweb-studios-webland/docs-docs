@@ -20,8 +20,7 @@ The answer is that we tried them, and these are great options when you want to g
 
 1. Find the directory with a `_config.yml`
 2. Run `npm install` to install npm dependencies
-3. Run `git submodule init && git submodule update` to update the theme
-4. Run `npm start`, and click on the link in the terminal
+3. Run `npm start`, and click on the link in the terminal
 
 <h2 id="features">Main features</h2>
 
