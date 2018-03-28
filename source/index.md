@@ -57,18 +57,8 @@ Sorry about these - there are some issues that we probably need to fix at some p
 
 If you edit the `_config.yml` file, for example to add a new file to the sidebar, you'll need to kill your server and start it up again to pick up the change. If you edit page content or the theme you don't need to restart.
 
-<h3 id="meteor-apollo-split">Meteor / Apollo theme split</h3>
+<h3 id="meteor-apollo-split">Theme management</h3>
 
-For at least a year, Meteor and Apollo have used unmergeable branches of the theme:
+The same theme, albeit with different CSS configurations, is used on multiple deployments.  As of this writing there are [two different CSS bundles](https://github.com/meteor/hexo-theme-meteor/search?utf8=%E2%9C%93&q=import+color+overrides+for+this+variation&type=) (Apollo and Meteor) and a full list of deployments demonstrating the themes can be found on the [theme repository](https://github.com/meteor/hexo-theme-meteor).
 
-- [Meteor on `master`](https://github.com/meteor/hexo-theme-meteor)
-- [Apollo on `apollo`](https://github.com/meteor/hexo-theme-meteor/pull/42)
-
-This was for a few reasons and more:
-
-1. Need to configure logos/colors
-2. Need to have a custom nav bar
-3. Rushed visual improvements for a new website launch
-4. Quick bug fixes for specific websites
-
-If you can figure out how to merge these branches together you'll be a docs hero.
+**When making changes to the theme, it's important to make sure the changes that are dynamic enough to work on each variation of the theme.**  The preview on the theme repository will provide links to each variation when opening a pull-request.
