@@ -58,10 +58,6 @@ Sorry about these - there are some issues that we probably need to fix at some p
 
 If you edit the `_config.yml` file, for example to add a new file to the sidebar, you'll need to kill your server and start it up again to pick up the change. If you edit page content or the theme you don't need to restart.
 
-<h3 id="hexo">Using Hexo</h3>
-
-At this point we have so much custom code I doubt we get much benefit from Hexo. Sometimes people working with the docs say stuff like "I don't understand how to do X in the Hexo thing" but usually it's actually a problem with our theme. We might want to migrate to a fully custom setup more like [MAW](https://github.com/meteor/website-tool) to become fully in control of our destiny.
-
 <h3 id="meteor-apollo-split">Meteor / Apollo theme split</h3>
 
 For at least a year, Meteor and Apollo have used unmergeable branches of the theme:
