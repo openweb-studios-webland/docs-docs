@@ -126,3 +126,7 @@ You can put arbitrary HTML anywhere you want in the middle of the markdown. For 
 Becomes:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6ZfuNTqbHE8" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+
+<h2 id="code-formatting">Code formatting</h2>
+
+In order to be consistent across all code snippets, please copy your code into [Prettier](https://prettier.io/playground), set the `--print-width` to `50` for superior readability on mobile devices, and use the formatted result.
